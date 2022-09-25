@@ -1,0 +1,87 @@
+*{padding: 0;margin: 0;}
+
+        .container{
+            height: 100vh;
+            background-image:linear-gradient(rgba(42, 59, 42, 0.83),rgba(27, 25, 25, 0.9)), url("fusion.jpg");
+            background-size: cover;
+
+        }
+
+        .navbar{
+            height: 100px;
+            width: 100%;
+            /* background-color: red; */
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background: rgba(10, 10, 11, 0.44); */
+        }
+
+        .searchbar{
+            height: 30px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            /* border: 2px solid black; */
+            border-radius: 60px;
+            background-color: rgba(49, 66, 72, 0.793);
+            
+        }
+
+        button{
+            border-radius: 20px;
+            font-size: 13px;
+            padding: 2px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: rgba(38, 41, 41, 0.548);
+            border: 0;
+        }
+
+        input{
+            margin-left: 10px;
+            /* width: 300px; */
+            background: transparent;
+            flex: 1;
+            border: 0;
+            outline: 0;
+        }
+
+        ::placeholder{
+            color: rgb(38, 38, 42);
+        }
+
+        
+
+        .mainbox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            gap: 4px;
+            
+        }
+
+        .main{
+            height: 200px;
+            width: 200px;
+            /* border: 1px solid black; */
+            border-radius: 20px;
+            background: rgba(90, 94, 74, 0.422);
+        }
+
+        h1{
+        text-align: center;
+        /* border: 2px solid black; */
+        font-size: 17px;
+        margin: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+
+        }
+
+        h2{
+            text-align: center;
+            margin-top: 2em;
+            color: rgba(19, 11, 11);
+        }
